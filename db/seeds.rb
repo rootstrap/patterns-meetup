@@ -7,7 +7,7 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 require 'faker'
 
-User.destroy_all!
+User.destroy_all
 
 100.times do |index|
   User.find_or_create_by(
